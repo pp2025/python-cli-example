@@ -1,0 +1,11 @@
+  - name: Install Python Tools
+  # You may pin to the exact commit or the version.
+  # uses: BrandonLWhite/pipx-install-action@05a7da951d87ccaad6d0b2a32d525e85910cc38c
+  uses: BrandonLWhite/pipx-install-action@v1.0.1
+  with:
+    # Path to the TOML file that specifies the [tool.pipx-install] section and list of packages to install
+    install-config-file: # optional, default is pyproject.toml
+    # When 'true', packages will be saved to the repository's GitHub Action cache and restored whenever possible to avoid downloading from the upstream pacakge repository (eg. PyPI)
+    cache-packages: # optional, default is true
+          
+          
